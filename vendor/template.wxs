@@ -4,10 +4,10 @@
     <Package Description="#Description" Comments="Comments" InstallerVersion="200" Compressed="yes"/>
 		<Media Id="1" Cabinet="contents.cab" EmbedCab="yes" CompressionLevel="high"/>
 
-    <PropertyRef Id="NETFRAMEWORK45" />
+    <PropertyRef Id="NETFRAMEWORK471" />
 
-    <Condition Message="This application requires .NET Framework 4.5. Please install the .NET Framework then run this installer again.">
-      <![CDATA[Installed OR NETFRAMEWORK45]]>
+    <Condition Message="This application requires .NET Framework 4.7.1. Please install the .NET Framework then run this installer again.">
+      <![CDATA[Installed OR NETFRAMEWORK471]]>
     </Condition>
 
     <Directory Id="TARGETDIR" Name="SourceDir">
